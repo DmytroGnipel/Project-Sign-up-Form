@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+   </head>
+<body>
+    <div id="wrapper">
+        <div id="sidebar">
+            <div id="top"></div>
+            <div id="middle">
+                <img src="assets/logo.png" alt="logo-nike">
+                <h1>Just do it!</h1>
+            </div>
+            <div id="bottom">
+                <p>All rights reserved</p>
+            </div>
+        </div>
+        <div id="content">
+            <div id="text">
+                <p><b>This is not a real online service! But you know you need something
+                    like this in your life to help you realize your deepest dreams.<br> 
+                    Sign up <i>now</i> to get started. 
+                    <br>
+                    <br>You <i>know</i> what you want to do.</b></p>
+            </div>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div id="container">
+
+                        <div>
+                            <label for="firstname">FIRST NAME</label>
+                            <input id="firstname" required placeholder="John *">
+                            <label for="eMail">EMAIL</label>
+                            <input id="eMail" type="email" placeholder="Johnsmith@gmail.com">
+                            <label for="psw">PASSWORD</label>
+                            <input class="error" id="psw" type="password" required placeholder="set a password *">
+                        </div>
+                        <div>
+                            <label for="lastname">LAST NAME</label>
+                            <input id="lastname" placeholder="Smith">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input id="phoneNumber" type="tel" required placeholder="+9 045 345 56 78 *">
+                            <label for="confirmPsw">CONFIRM PASSWORD</label>
+                            <input class="error" id="confirmPsw" type="password" required placeholder="repeat your password *">
+                        </div>
+                    </div>            
+                </fieldset>
+                <button type="submit"><b>Just do it!</b></button>
+            </form>
+            <p id="login">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+    
+</body>
+</html>

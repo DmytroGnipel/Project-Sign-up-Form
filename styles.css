@@ -1,0 +1,141 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(assets/airstrike.ttf);
+}
+
+body {
+    background-color: rgb(204, 202, 202);
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#wrapper {
+    display: flex;
+    width: 900px;
+    margin: auto;
+    background-color: #f2f5f7;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-image: url(assets/background.jpg);
+    border-right: 1px solid #48666d; 
+}
+
+#top {
+    flex-grow: 1;
+}
+
+#middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+#bottom {
+    flex-grow: 2;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#sidebar p {
+    color:aliceblue;
+    margin: 0%;
+    font-size: 12px; 
+}
+
+h1 {
+    font-family: my-cool-font, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+#content {
+    width: 550px;
+}
+
+#text {
+    padding: 9vh 8vh 0px 0px;
+    font-size: 14px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+legend {
+    position: relative;
+    top: 20px;
+    padding: 20px 0 20px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: none;
+    padding: 10px 0 15px 20px;
+    background-color: white;
+    box-shadow: 2px 3px rgb(223, 215, 215);
+    font-size: 10px;
+    height: 231px;
+}
+
+input {
+    display: block;
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 5%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #bacece;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus:valid {
+    border: 1px solid green;
+    box-shadow: 1px 1px rgb(103, 133, 103);
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+    box-shadow: 1px 1px rgb(129, 99, 99);
+}
+
+.warning {
+    color: red;
+    display: inline;
+    margin-left: 0%;
+}
+
+#login {
+    font-size: 12px;
+    margin: 0 0 0 20px;
+}
+
+p, button {
+    margin: 20px;  
+}
+
+button {
+    background-color: #48666d;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    border: none;
+}
+
+
+
